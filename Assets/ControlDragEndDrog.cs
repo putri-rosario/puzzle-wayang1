@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ControlDragEndDrog : MonoBehaviour
 {
+    public static ControlDragEndDrog Instance;
+
     public GameObject[] item;
     public GameObject[] itemDrop;
     public int jarak;
@@ -13,6 +15,16 @@ public class ControlDragEndDrog : MonoBehaviour
 
     void Start()
     {
+        if(Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
         if (item.Length != itemDrop.Length)
         {
             Debug.LogError("Array 'item' dan 'itemDrop' harus memiliki panjang yang sama.");
