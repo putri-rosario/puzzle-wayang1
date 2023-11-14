@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 110209877}
   - component: {fileID: 110209876}
   m_Layer: 5
-  m_Name: semar utuh
+  m_Name: arjuna utuh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -447,7 +447,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f56362da1399c74c83a017ee53368e2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 757ed442200a1794db4a1d43db6b53b2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1159,7 +1159,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7b17be05720245a4b809716e08d0852f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 61df084fdcd056840ae0034f7ecc9095, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1555,7 +1555,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 99979622b94bb1a4b8e062a0923e508b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d79d6db602f393e449dbf4b368c317b6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1711,7 +1711,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e944b08936c63a542a57888b52cc3abf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a4c172a54091230438602896f10befd5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2337,7 +2337,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f467ea4454116fe488cd08e19d6e863b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 01a0e444f50325542a632fb4860cebc0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3212,7 +3212,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07920a9941104dd4ab6a0d86727b6768, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 89a310984129bf74992ae42945a58d1b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3620,7 +3620,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 01c2ac446d7dd0843b407dcafb039f8a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d6994e8662891f4438c42bc74da79ce7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4300,8 +4300,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Memiliki badan bulat dan gemuk, wajah yang bulat, mata berair, tangan kanan
-    menunjuk, tangan kiri mengepal, dan kaki yang pendek
+  m_text: Memiliki rambut panjang bergelombangnya, wajah yang tampan, bermata menawan
+    dan tajam, bertubuh ramping dan berhidung mancung.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 356ff291c8f222c4dbd0dfa7f9cb400c, type: 2}
   m_sharedMaterial: {fileID: 2692819650113269410, guid: 356ff291c8f222c4dbd0dfa7f9cb400c, type: 2}
@@ -4437,7 +4437,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 262f48935f73cfd48991c288b81eb2e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 49dac7b048548fc41bce63ea3e4b6070, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4593,7 +4593,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fb69431fc9411b944baa0a5b419d8d06, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f430384aa71df2942b66938e36ab7bf2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4702,7 +4702,7 @@ GameObject:
   - component: {fileID: 1848377039}
   - component: {fileID: 1848377038}
   m_Layer: 5
-  m_Name: semar
+  m_Name: arjuna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4747,7 +4747,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f56362da1399c74c83a017ee53368e2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 757ed442200a1794db4a1d43db6b53b2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5156,7 +5156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 202, y: -110.5}
+  m_AnchoredPosition: {x: -211, y: 94.45608}
   m_SizeDelta: {x: 199.183, y: 198.5461}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2013366817
@@ -5179,7 +5179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 01a578fb767329d468aebb0563c1c584, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e96a2aacd1103664fb6bbc04ca51ac3b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

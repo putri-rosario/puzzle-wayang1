@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 110209877}
   - component: {fileID: 110209876}
   m_Layer: 5
-  m_Name: semar utuh
+  m_Name: anoman utuh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -447,7 +447,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f56362da1399c74c83a017ee53368e2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9584f126880a15f42ac0a5e76363b5c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1159,7 +1159,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7b17be05720245a4b809716e08d0852f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 30e378aee575d0840ac1f4a14cfe5ffe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1555,7 +1555,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 99979622b94bb1a4b8e062a0923e508b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1c4b18b0fdf57694e86fe7089a9b3411, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1711,7 +1711,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e944b08936c63a542a57888b52cc3abf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7bafcb985bbee6a40a31dd09414a4a9a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2095,7 +2095,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &740310835
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2337,7 +2337,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f467ea4454116fe488cd08e19d6e863b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c119f6fefcc07124eb2b516f8c8cb447, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3212,7 +3212,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07920a9941104dd4ab6a0d86727b6768, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2c82fe8cfb1a0bc42bbd6466bdb029dc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3620,7 +3620,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 01c2ac446d7dd0843b407dcafb039f8a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 08d303de4a946be40a021c63335be07b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3854,7 +3854,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -350, y: -347}
+  m_AnchoredPosition: {x: -476, y: -355}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1459107199
@@ -3877,9 +3877,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'SEMAR
+  m_text: 'ANOMAN
 
-    (salah satu wayang punakawan)'
+    (salah satu wayang di cerita RAMAYANA)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 356ff291c8f222c4dbd0dfa7f9cb400c, type: 2}
   m_sharedMaterial: {fileID: 2692819650113269410, guid: 356ff291c8f222c4dbd0dfa7f9cb400c, type: 2}
@@ -3942,7 +3942,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -697.00684, w: -90.00354}
+  m_margin: {x: 0, y: 0, z: -948.1343, w: -90.00354}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4437,7 +4437,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 262f48935f73cfd48991c288b81eb2e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5158b96cd9819ab45be83ec844d32de2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4593,7 +4593,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fb69431fc9411b944baa0a5b419d8d06, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aedb2375e260f604693290c6ab920a3b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4702,7 +4702,7 @@ GameObject:
   - component: {fileID: 1848377039}
   - component: {fileID: 1848377038}
   m_Layer: 5
-  m_Name: semar
+  m_Name: anoman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4747,7 +4747,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f56362da1399c74c83a017ee53368e2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9584f126880a15f42ac0a5e76363b5c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5156,7 +5156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 202, y: -110.5}
+  m_AnchoredPosition: {x: 202, y: 299.0001}
   m_SizeDelta: {x: 199.183, y: 198.5461}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2013366817
@@ -5179,7 +5179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 01a578fb767329d468aebb0563c1c584, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6dbf1cf27f4083d43a72b286daf18266, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

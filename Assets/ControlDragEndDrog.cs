@@ -20,10 +20,6 @@ public class ControlDragEndDrog : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        else
-        {
-            Destroy(gameObject);
-        }
 
         if (item.Length != itemDrop.Length)
         {
