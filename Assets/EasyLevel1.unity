@@ -1119,7 +1119,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemDrag
           m_Mode: 3
@@ -1135,7 +1135,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemEndDrag
           m_Mode: 3
@@ -1180,7 +1180,16 @@ MonoBehaviour:
   - {fileID: 776526490}
   - {fileID: 1118990387}
   jarak: 100
-  itemPos: []
+  itemPos:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
 --- !u!1 &366865732
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,7 +1489,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 99979622b94bb1a4b8e062a0923e508b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fb69431fc9411b944baa0a5b419d8d06, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1515,7 +1524,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemDrag
           m_Mode: 3
@@ -1531,7 +1540,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemEndDrag
           m_Mode: 3
@@ -1576,7 +1585,16 @@ MonoBehaviour:
   - {fileID: 776526490}
   - {fileID: 1118990387}
   jarak: 100
-  itemPos: []
+  itemPos:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
 --- !u!1 &542948069
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,7 +1654,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e944b08936c63a542a57888b52cc3abf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 01c2ac446d7dd0843b407dcafb039f8a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1671,7 +1689,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemDrag
           m_Mode: 3
@@ -1687,7 +1705,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemEndDrag
           m_Mode: 3
@@ -1732,7 +1750,16 @@ MonoBehaviour:
   - {fileID: 776526490}
   - {fileID: 1118990387}
   jarak: 100
-  itemPos: []
+  itemPos:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
 --- !u!1 &549576342
 GameObject:
   m_ObjectHideFlags: 0
@@ -2274,7 +2301,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemDrag
           m_Mode: 3
@@ -2290,7 +2317,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemEndDrag
           m_Mode: 3
@@ -2322,7 +2349,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f467ea4454116fe488cd08e19d6e863b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e944b08936c63a542a57888b52cc3abf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2373,7 +2400,16 @@ MonoBehaviour:
   - {fileID: 776526490}
   - {fileID: 1118990387}
   jarak: 100
-  itemPos: []
+  itemPos:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
 --- !u!1 &841152312
 GameObject:
   m_ObjectHideFlags: 0
@@ -3335,7 +3371,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07920a9941104dd4ab6a0d86727b6768, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 262f48935f73cfd48991c288b81eb2e6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3370,7 +3406,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemDrag
           m_Mode: 3
@@ -3386,7 +3422,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemEndDrag
           m_Mode: 3
@@ -3431,7 +3467,16 @@ MonoBehaviour:
   - {fileID: 776526490}
   - {fileID: 1118990387}
   jarak: 100
-  itemPos: []
+  itemPos:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
 --- !u!1 &1321217793
 GameObject:
   m_ObjectHideFlags: 0
@@ -3477,14 +3522,14 @@ MonoBehaviour:
   - {fileID: 1263615871}
   - {fileID: 2013366815}
   itemDrop:
-  - {fileID: 2143611387}
   - {fileID: 418921593}
-  - {fileID: 161820814}
   - {fileID: 204498151}
-  - {fileID: 397438365}
-  - {fileID: 776526490}
-  - {fileID: 1188212380}
   - {fileID: 1606780877}
+  - {fileID: 2143611387}
+  - {fileID: 397438365}
+  - {fileID: 1188212380}
+  - {fileID: 161820814}
+  - {fileID: 776526490}
   - {fileID: 1118990387}
   jarak: 100
   itemPos:
@@ -3598,7 +3643,6 @@ GameObject:
   - component: {fileID: 1346183817}
   - component: {fileID: 1346183816}
   - component: {fileID: 1346183815}
-  - component: {fileID: 1346183818}
   - component: {fileID: 1346183819}
   m_Layer: 5
   m_Name: finish
@@ -3708,18 +3752,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346183813}
   m_CullTransparentMesh: 1
---- !u!114 &1346183818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1346183813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a99a865f380d6b4a9e7a57a6c3714f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1346183819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3798,7 +3830,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 01c2ac446d7dd0843b407dcafb039f8a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f467ea4454116fe488cd08e19d6e863b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3833,7 +3865,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemDrag
           m_Mode: 3
@@ -3849,7 +3881,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemEndDrag
           m_Mode: 3
@@ -3894,7 +3926,16 @@ MonoBehaviour:
   - {fileID: 776526490}
   - {fileID: 1118990387}
   jarak: 100
-  itemPos: []
+  itemPos:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
 --- !u!1 &1427402358
 GameObject:
   m_ObjectHideFlags: 0
@@ -4616,7 +4657,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 262f48935f73cfd48991c288b81eb2e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 99979622b94bb1a4b8e062a0923e508b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4651,7 +4692,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemDrag
           m_Mode: 3
@@ -4667,7 +4708,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemEndDrag
           m_Mode: 3
@@ -4712,7 +4753,16 @@ MonoBehaviour:
   - {fileID: 776526490}
   - {fileID: 1118990387}
   jarak: 100
-  itemPos: []
+  itemPos:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
 --- !u!1 &1815301740
 GameObject:
   m_ObjectHideFlags: 0
@@ -4772,7 +4822,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fb69431fc9411b944baa0a5b419d8d06, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 07920a9941104dd4ab6a0d86727b6768, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4807,7 +4857,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemDrag
           m_Mode: 3
@@ -4823,7 +4873,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemEndDrag
           m_Mode: 3
@@ -4868,7 +4918,16 @@ MonoBehaviour:
   - {fileID: 776526490}
   - {fileID: 1118990387}
   jarak: 100
-  itemPos: []
+  itemPos:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
 --- !u!1 &1848377036
 GameObject:
   m_ObjectHideFlags: 0
@@ -5393,7 +5452,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemDrag
           m_Mode: 3
@@ -5409,7 +5468,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1321217794}
           m_TargetAssemblyTypeName: ControlDragEndDrog, Assembly-CSharp
           m_MethodName: ItemEndDrag
           m_Mode: 3
@@ -5454,7 +5513,16 @@ MonoBehaviour:
   - {fileID: 776526490}
   - {fileID: 1118990387}
   jarak: 100
-  itemPos: []
+  itemPos:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
 --- !u!1 &2143611387
 GameObject:
   m_ObjectHideFlags: 0

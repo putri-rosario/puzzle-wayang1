@@ -4,37 +4,44 @@ using UnityEngine;
 
 public class ControlDragEndDrog : MonoBehaviour
 {
-    public static ControlDragEndDrog Instance;
-
     public GameObject[] item;
     public GameObject[] itemDrop;
+
     public int jarak;
 
     public Vector2[] itemPos;
-    private int[] itemDropIndex;
+
+    public int[] randomIndexs;
+
+    public Vector2[] itemDropPos;
+
+    bool[] isDrops = new bool[9];
 
     void Start()
     {
-        if(Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-
-        if (item.Length != itemDrop.Length)
-        {
-            Debug.LogError("Array 'item' dan 'itemDrop' harus memiliki panjang yang sama.");
-            return;
-        }
-
-        itemPos = new Vector2[item.Length];
-        itemDropIndex = new int[item.Length];
-
         for (int i = 0; i < itemPos.Length; i++)
         {
             itemPos[i] = item[i].transform.localPosition;
-            itemDropIndex[i] = -1;
         }
+
+        RandomIndex();
+
+        for (int i = 0; i < itemDropPos.Length; i++)
+        {
+            itemDrop[i] = itemDropPos.transform.localPosition;
+        }
+
+        for (int i = 0; i < itemDrop.Length; i++)
+        {
+            itemDropPos[i].transform.localPosition = itemDrop[randomIndexs[i]];
+        }
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
     }
 
     public void ItemDrag(int number)
@@ -44,31 +51,26 @@ public class ControlDragEndDrog : MonoBehaviour
 
     public void ItemEndDrag(int number)
     {
-        for (int i = 0; i < itemDrop.Length; i++)
+        float distance = Vector3.Distance(item[number].transform.localPosition, itemDrop[number].transform.localPosition);
+
+        if (distance < jarak)
         {
-            float distance = Vector3.Distance(item[number].transform.position, itemDrop[i].transform.position);
-
-            if (distance < jarak)
-            {
-                item[number].transform.position = itemDrop[i].transform.position;
-                itemDropIndex[number] = i;
-                return;
-            }
+            item[number].transform.localPosition = itemDrop[number].transform.localPosition;
         }
-
-        item[number].transform.localPosition = itemPos[number];
-        itemDropIndex[number] = -1;
+        else
+        {
+            item[number].transform.localPosition = itemPos[number];
+        }
     }
 
-    public bool VerifyPlacement()
+    public void RandomIndex()
     {
-        for (int i = 0; i < item.Length; i++)
+        for (int i = 0; i < randomIndexs.Length; i++)
         {
-            if (itemDropIndex[i] != i)
-            {
-                return false;
-            }
+            int a = randomIndexs[i];
+            int result = Random Range(0, randomIndexs.Length);
+            randomIndexs[i] = randomIndexs[result];
+            randomIndexs[result] = a;
         }
-        return true;
     }
 }
