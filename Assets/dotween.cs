@@ -5,6 +5,11 @@ using System.Collections;
 
 public class ScaleOnEnable : MonoBehaviour
 {
+    private void Start()
+    {
+        StartCoroutine(ScaleWithTween());
+    }
+
     private Vector3 originalScale;
     public float targetScale = 1.5f;
     public float duration = 2.0f;

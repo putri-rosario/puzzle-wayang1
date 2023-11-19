@@ -1,6 +1,9 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ControlDragEndDrog : MonoBehaviour
 {
@@ -11,29 +14,18 @@ public class ControlDragEndDrog : MonoBehaviour
 
     public Vector2[] itemPos;
 
-    public int[] randomIndexs;
-
     public Vector2[] itemDropPos;
 
     bool[] isDrops = new bool[9];
+
+    public GameObject panelWin;
+
 
     void Start()
     {
         for (int i = 0; i < itemPos.Length; i++)
         {
             itemPos[i] = item[i].transform.localPosition;
-        }
-
-        RandomIndex();
-
-        for (int i = 0; i < itemDropPos.Length; i++)
-        {
-            itemDrop[i] = itemDropPos.transform.localPosition;
-        }
-
-        for (int i = 0; i < itemDrop.Length; i++)
-        {
-            itemDropPos[i].transform.localPosition = itemDrop[randomIndexs[i]];
         }
 
     }
@@ -46,9 +38,12 @@ public class ControlDragEndDrog : MonoBehaviour
 
     public void ItemDrag(int number)
     {
-        item[number].transform.position = Input.mousePosition;
-    }
+        if (isDrops[number] == false)
+        {
+            item[number].transform.position = Input.mousePosition;
+        }
 
+    }
     public void ItemEndDrag(int number)
     {
         float distance = Vector3.Distance(item[number].transform.localPosition, itemDrop[number].transform.localPosition);
@@ -56,6 +51,10 @@ public class ControlDragEndDrog : MonoBehaviour
         if (distance < jarak)
         {
             item[number].transform.localPosition = itemDrop[number].transform.localPosition;
+
+            isDrops[number] = true;
+
+            CheckWin();
         }
         else
         {
@@ -63,14 +62,27 @@ public class ControlDragEndDrog : MonoBehaviour
         }
     }
 
-    public void RandomIndex()
+    void CheckWin()
     {
-        for (int i = 0; i < randomIndexs.Length; i++)
+        for (int i = 0; i < isDrops.Length; i++)
         {
-            int a = randomIndexs[i];
-            int result = Random Range(0, randomIndexs.Length);
-            randomIndexs[i] = randomIndexs[result];
-            randomIndexs[result] = a;
+            if (isDrops[i] == true)
+            {
+                return;
+            }
+            else
+            {
+                if (i == isDrops.Length - 1)
+                {
+                    panelWin.SetActive(true);
+                }
+            }
         }
+    }
+
+    public void LoadToScene(string sceneName)
+    {
+        Debug.Log(sceneName);
+        SceneManager.LoadScene(sceneName);
     }
 }
