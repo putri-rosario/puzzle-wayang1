@@ -3683,7 +3683,6 @@ MonoBehaviour:
   - {fileID: 1739944661}
   - {fileID: 481568855}
   - {fileID: 1263615871}
-  - {fileID: 2013366815}
   itemDrop:
   - {fileID: 2143611387}
   - {fileID: 418921593}
@@ -3693,7 +3692,6 @@ MonoBehaviour:
   - {fileID: 776526490}
   - {fileID: 1188212380}
   - {fileID: 1606780877}
-  - {fileID: 1118990387}
   jarak: 100
   itemPos:
   - {x: 0, y: 0}
