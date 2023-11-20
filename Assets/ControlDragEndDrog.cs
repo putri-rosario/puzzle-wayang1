@@ -9,41 +9,33 @@ public class ControlDragEndDrog : MonoBehaviour
 {
     public GameObject[] item;
     public GameObject[] itemDrop;
-
     public int jarak;
-
     public Vector2[] itemPos;
-
     public Vector2[] itemDropPos;
-
-    bool[] isDrops = new bool[9];
-
+    bool[] isDrops;
     public GameObject panelWin;
-
 
     void Start()
     {
+        isDrops = new bool[item.Length];
         for (int i = 0; i < itemPos.Length; i++)
         {
             itemPos[i] = item[i].transform.localPosition;
         }
-
     }
 
-    // Update is called once per frame
     void Update()
     {
-
     }
 
     public void ItemDrag(int number)
     {
-        if (isDrops[number] == false)
+        if (!isDrops[number])
         {
             item[number].transform.position = Input.mousePosition;
         }
-
     }
+
     public void ItemEndDrag(int number)
     {
         float distance = Vector3.Distance(item[number].transform.localPosition, itemDrop[number].transform.localPosition);
@@ -51,9 +43,7 @@ public class ControlDragEndDrog : MonoBehaviour
         if (distance < jarak)
         {
             item[number].transform.localPosition = itemDrop[number].transform.localPosition;
-
             isDrops[number] = true;
-
             CheckWin();
         }
         else
@@ -64,20 +54,28 @@ public class ControlDragEndDrog : MonoBehaviour
 
     void CheckWin()
     {
-        for (int i = 0; i < isDrops.Length; i++)
+        foreach (bool isDrop in isDrops)
         {
-            if (isDrops[i] == true)
+            if (!isDrop)
             {
                 return;
             }
-            else
+        }
+
+        panelWin.SetActive(true);
+    }
+
+    bool AreAllItemsDropped()
+    {
+        foreach (bool isDrop in isDrops)
+        {
+            if (!isDrop)
             {
-                if (i == isDrops.Length - 1)
-                {
-                    panelWin.SetActive(true);
-                }
+                return false;
             }
         }
+
+        return true;
     }
 
     public void LoadToScene(string sceneName)
