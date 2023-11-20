@@ -22,20 +22,12 @@ public class ControlDragEndDrog : MonoBehaviour
 
     void Start()
     {
-        // Initialize the isDrops array with the length of the items array
         isDrops = new bool[item.Length];
 
-        // Store the initial positions of items
         for (int i = 0; i < itemPos.Length; i++)
         {
             itemPos[i] = item[i].transform.localPosition;
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        // You can add any update logic here if needed
     }
 
     public void ItemDrag(int number)
@@ -64,33 +56,27 @@ public class ControlDragEndDrog : MonoBehaviour
 
     void CheckWin()
     {
-        // Check if all items are dropped
         foreach (bool isDrop in isDrops)
         {
             if (!isDrop)
             {
-                // If any puzzle is not placed, exit the function
                 return;
             }
         }
 
-        // If all puzzles are placed, trigger the win
         panelWin.SetActive(true);
     }
 
-    // Function to check if all items are dropped
     bool AreAllItemsDropped()
     {
         foreach (bool isDrop in isDrops)
         {
             if (!isDrop)
             {
-                // If any puzzle is not placed, return false
                 return false;
             }
         }
 
-        // If all puzzles are placed, return true
         return true;
     }
 
