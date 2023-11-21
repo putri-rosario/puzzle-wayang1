@@ -46,7 +46,7 @@ public class ControlDragEndDrog : MonoBehaviour
         {
             item[number].transform.localPosition = itemDrop[number].transform.localPosition;
             isDrops[number] = true;
-            CheckWin();
+            Invoke("CheckWin", 0.7f);
         }
         else
         {
@@ -65,6 +65,7 @@ public class ControlDragEndDrog : MonoBehaviour
         }
 
         panelWin.SetActive(true);
+
     }
 
     bool AreAllItemsDropped()
@@ -80,9 +81,4 @@ public class ControlDragEndDrog : MonoBehaviour
         return true;
     }
 
-    public void LoadToScene(string sceneName)
-    {
-        Debug.Log(sceneName);
-        SceneManager.LoadScene(sceneName);
-    }
 }
